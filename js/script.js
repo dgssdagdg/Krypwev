@@ -24,3 +24,6 @@ window.onscroll = function(){
         } else BlkStyle.classList.remove('header-fix-active');
     } 
 }
+$(function(){
+    $("#phone").mask("+7(999) 999-9999");
+  });
